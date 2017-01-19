@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profile .doing .one-new .plan p {
+    display: inline-block;
+}
+
+.profile .doing .one-new .plan p.now-doing {
+    color: red;
+}
+
+.profile .avatar img.img-responsive {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.profile .info.col-xs-8.col-sm-8.col-md-8.col-lg-8 {
+    border: 2px solid rgba(0, 0, 0, 0.45);
+    padding: 15px;
+}
+
+.profile .info .about p {
+    margin: 0 10px 0 0;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+
+.profile .info .about {
+    margin: 20px 10px;
+    display: inline-flex;
+}
+
+.content .one-new .content-new  p.text-content-new {padding: 10px;}
+
+.center .one-new .buttons i.fa.fa-star {
+    color: red;
+    padding: 0px 2px;
+}
+
+.center .stories-around .buttons ul li p {
+    color: cornflowerblue;
+    display: inline-block;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+
+.center .stories-around .buttons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.center .stories-around .buttons ul li {
+    float: left;
+    padding: 0 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.center .stories-around .buttons ul li:hover {
+    background: cadetblue;
+    color: wheat;
+}
+
+.center .stories-around .buttons ul li:hover p {
+    color: white;
+}
+
+.center .stories-around .buttons ul li:hover i {
+    font-size: 15px;
+}
+
+.home .center button.btn.btn-primary {
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+button.btn.btn-primary.text-center {
+    margin-left: 35%;
+}
+
+.center .content .row.info {
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.center .one-new.row {
+    margin: 10px 0;
+    padding: 20px 5px;
+    border: 1px solid black;
+    border-top: 4px solid green;
+}
+
+.center .content .info img.img-responsive {
+    border-radius: 50%;
+}
+
+.center .content  .name p {
+}
+
+.center .conent .info img.img-responsive {
+    border-radius: 50%;
+    height: 50px;
+    min-width: 50px;
+}
+
+.avatar.col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+    width: 50px;
+    padding: 0;
+}
+
+.center .content {
+    margin: 0 15px;
+}
+
+.center .popular .one-popular.col-xs-6.col-sm-6.col-md-6.col-lg-6 {
+    padding: 10px;
+    border: 1px solid #c98d8d;
+}
+
+.home .center p.title {
+    border-bottom: 2px solid rgb(178, 178, 178);
+    padding: 5px;
+}
+
+.center {
+    margin: 0 15px;
+}
+
+.home .right .title p {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid #b2b2b2;
+}
+
+.home .right {
+    margin: 0 15px;
+}
+
+.left ul.list-group.your-feed {
+    margin-bottom: 5px;
+}
+
+.left .content {
+    margin: 5px 10px;
+}
+
+.left li.list-group-item,.right li.list-group-item {
+    height: 40px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+li.list-group-item:hover {
+    background: aquamarine;
+}
+
+.left .row.title {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.32);
+    margin: 0 10px;
+}
+
+.left {
+    margin: 0 15px;
+}
+h1{
+    color: red;
+}
