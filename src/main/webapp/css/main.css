@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+body {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#nav-container {
+    position: absolute;
+    z-index: 0;
+}
+
 .profile .doing .one-new .plan p {
     display: inline-block;
 }
@@ -148,6 +157,10 @@ button.btn.btn-primary.text-center {
     margin-bottom: 5px;
 }
 
+.left {
+    margin-left: 20px;
+}
+
 .left .content {
     margin: 5px 10px;
 }
@@ -170,6 +183,11 @@ li.list-group-item:hover {
 .left {
     margin: 0 15px;
 }
+
+.shortcuts_seemore {
+    margin-left: 10px;
+}
+
 h1{
     color: red;
 }
